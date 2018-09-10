@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">AdNolesh Network Example</string>
+    <string name="description">Это приложение демонстрирует возможности AdNolesh Network и является примером его интеграции в сторонние приложения</string>   
+	
+	<string name="menu_title">AdNolesh Network</string>
+	
+	<string name="menu_notification">Оповещение</string>
+	<string name="menu_offerwall">Стена предложений</string>
+	<string name="menu_hidden_offerwall">Открыть скрытую стену предложений</string>
+	<string name="menu_preferences">Баннер в предпочтениях</string>
+	<string name="menu_interstitial">Межстраничная реклама</string>
+	<string name="menu_video">Видео реклама</string>
+	
+	<string name="banner_tab">БАННЕР</string>
+	<string name="main_tab">ГЛАВНАЯ</string>
+	<string name="offerwall_tab">СТЕНА ПРЕДЛОЖЕНИЙ</string>
+	
+	<string name="com_ad_nolesh_test_list1_title">Список 1</string>
+	<string name="info_preferences_ads_title">Реклама</string>	
+	<string name="info_preferences1_title">Разделитель 1</string>
+	
+	<string name="com_ad_nolesh_test_list2_title">Список 2</string>
+	<string name="info_preferences2_title">Разделитель 2</string>
+	<string name="com_ad_nolesh_test_chk_title">Переключатель</string>
+	<string name="com_ad_nolesh_test_chk_summary">Это пример переключателя</string>
+	
+	
+	<string name="banner_tab_text">Пример баннера</string>
+	<string name="banner_tab_label_text">Контент ниже баннера</string>
+	<string name="banner_tab_button">Добавить баннер программно</string>
+	
+	<string name="offerwall_tab_text">Пример встроенной стены предложений</string>
+		
+</resources>

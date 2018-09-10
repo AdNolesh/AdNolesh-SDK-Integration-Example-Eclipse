@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>      
+    <string-array name="List1Array">
+    <item >Image #1</item>
+    <item >Image #2</item>  
+    <item >Image #3</item>  
+    <item >Image #4</item>  
+    <item >Image #5</item>  
+    </string-array>    
+     <string-array name="List1Values">
+    <item >1</item>
+    <item >2</item>  
+    <item >3</item>  
+    <item >4</item> 
+    <item >5</item>  
+    </string-array>
+    
+    <string-array name="List2Array">
+    <item >Value 1</item>
+    <item >Value 2</item>  
+    <item >Value 3</item>
+    <item >Value 4</item>  
+    </string-array>    
+    <string-array name="List2Values">
+    <item >0</item>
+    <item >1</item>  
+    <item >2</item> 
+    <item >3</item>  
+    </string-array>             
+  
+</resources>

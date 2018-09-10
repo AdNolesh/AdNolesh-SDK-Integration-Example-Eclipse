@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">AdNolesh Network Example</string>
+    <string name="description">This app demonstrates features of AdNolesh Network and is an example of its integration into third-party apps</string>   
+	
+	<string name="menu_title">AdNolesh Network</string>
+	
+	<string name="menu_notification">Notification</string>	
+	<string name="menu_offerwall">Offerwall</string>
+	<string name="menu_hidden_offerwall">Open hidden offerwall</string>
+	<string name="menu_preferences">Banner In Preferences</string>
+	<string name="menu_interstitial">Interstitial</string>
+	<string name="menu_video">Video-interstitial</string>
+	
+	
+	
+	<string name="banner_tab">BANNER</string>
+	<string name="main_tab">MAIN</string>
+	<string name="offerwall_tab">OFFERWALL</string>
+	
+	<string name="com_ad_nolesh_test_list1_title">ListPreference 1</string>
+	<string name="info_preferences_ads_title">Ads</string>	
+	<string name="info_preferences1_title">Custom separator 1</string>	
+	<string name="com_ad_nolesh_test_list2_title">ListPreference 2</string>
+	<string name="info_preferences2_title">Custom separator 2</string>
+	<string name="com_ad_nolesh_test_chk_title">CheckBoxPreference</string>
+	<string name="com_ad_nolesh_test_chk_summary">This is example of CheckBoxPreference</string>
+		
+	<string name="banner_tab_text">Banner example</string>
+	<string name="banner_tab_label_text">Some content below the banner</string>
+	<string name="banner_tab_button">Add Banner Programmatically</string>
+	
+	<string name="offerwall_tab_text">Embedded offerwall example</string>
+		
+</resources>

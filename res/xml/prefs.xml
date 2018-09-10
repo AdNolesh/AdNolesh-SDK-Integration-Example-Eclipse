@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- Example of using AdNolesh BannerPreference in Preferences -->		
+	  
+	<ListPreference            
+        android:key="com_ad_nolesh_test_list1"
+        android:title="@string/com_ad_nolesh_test_list1_title"
+        android:dialogTitle="@string/com_ad_nolesh_test_list1_title"
+        android:entries="@array/List1Array"
+        android:entryValues="@array/List1Values"
+        android:defaultValue="1"
+    />
+	
+	<com.your.app.p4ck4ge.name.InfoPreference 
+         android:title="@string/info_preferences_ads_title"                  
+    />
+	
+	<!-- AdNolesh BannerPreference (Banner) -->
+	<com.nolesh.ads.BannerPreference /> 
+	
+	<com.your.app.p4ck4ge.name.InfoPreference 
+         android:title="@string/info_preferences1_title"                  
+    />
+	
+	<CheckBoxPreference android:key="com_ad_nolesh_test_chk1"       
+        android:defaultValue="false"       
+        android:title="@string/com_ad_nolesh_test_chk_title"
+    />	
+		
+	<ListPreference      
+        android:key="com_ad_nolesh_test_list2"
+        android:title="@string/com_ad_nolesh_test_list2_title"
+        android:dialogTitle="@string/com_ad_nolesh_test_list2_title"        
+        android:entries="@array/List2Array"
+        android:entryValues="@array/List2Values"
+        android:defaultValue="1"
+     />	
+		
+	
+	 <com.your.app.p4ck4ge.name.InfoPreference 
+         android:title="@string/info_preferences2_title"                  
+     />
+    
+	 
+	<CheckBoxPreference android:key="com_ad_nolesh_test_chk2"       
+        android:defaultValue="true"       
+        android:title="@string/com_ad_nolesh_test_chk_title"
+		android:summary="@string/com_ad_nolesh_test_chk_summary"		
+	/> 
+		
+	<CheckBoxPreference android:key="com_ad_nolesh_test_chk3"	      
+        android:defaultValue="true"       
+        android:title="@string/com_ad_nolesh_test_chk_title"
+		android:summary="@string/com_ad_nolesh_test_chk_summary"		
+	/> 
+	
+	<CheckBoxPreference android:key="com_ad_nolesh_test_chk4"	      
+        android:defaultValue="true"       
+        android:title="@string/com_ad_nolesh_test_chk_title"
+		android:summary="@string/com_ad_nolesh_test_chk_summary"		
+	/> 
+	
+	<CheckBoxPreference android:key="com_ad_nolesh_test_chk5"	      
+        android:defaultValue="true"       
+        android:title="@string/com_ad_nolesh_test_chk_title"
+		android:summary="@string/com_ad_nolesh_test_chk_summary"		
+	/> 
+	
+	<CheckBoxPreference android:key="com_ad_nolesh_test_chk6"	      
+        android:defaultValue="true"       
+        android:title="@string/com_ad_nolesh_test_chk_title"
+		android:summary="@string/com_ad_nolesh_test_chk_summary"		
+	/> 
+	
+	<CheckBoxPreference android:key="com_ad_nolesh_test_chk7"	      
+        android:defaultValue="true"       
+        android:title="@string/com_ad_nolesh_test_chk_title"
+		android:summary="@string/com_ad_nolesh_test_chk_summary"		
+	/> 
+	
+	<CheckBoxPreference android:key="com_ad_nolesh_test_chk8"	      
+        android:defaultValue="true"       
+        android:title="@string/com_ad_nolesh_test_chk_title"
+		android:summary="@string/com_ad_nolesh_test_chk_summary"		
+	/> 
+	
+	<CheckBoxPreference android:key="com_ad_nolesh_test_chk9"	      
+        android:defaultValue="true"       
+        android:title="@string/com_ad_nolesh_test_chk_title"
+		android:summary="@string/com_ad_nolesh_test_chk_summary"		
+	/> 
+	
+	<CheckBoxPreference android:key="com_ad_nolesh_test_chk10"	      
+        android:defaultValue="true"       
+        android:title="@string/com_ad_nolesh_test_chk_title"
+		android:summary="@string/com_ad_nolesh_test_chk_summary"		
+	/> 
+	
+	<CheckBoxPreference android:key="com_ad_nolesh_test_chk11"	      
+        android:defaultValue="true"       
+        android:title="@string/com_ad_nolesh_test_chk_title"
+		android:summary="@string/com_ad_nolesh_test_chk_summary"		
+	/> 
+	
+	<CheckBoxPreference android:key="com_ad_nolesh_test_chk12"	      
+        android:defaultValue="true"       
+        android:title="@string/com_ad_nolesh_test_chk_title"
+		android:summary="@string/com_ad_nolesh_test_chk_summary"		
+	/> 
+	 		
+	
+</PreferenceScreen>
