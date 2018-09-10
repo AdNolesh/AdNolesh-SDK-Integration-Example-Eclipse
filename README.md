@@ -4,7 +4,7 @@
 
 This app demonstrates features of AdNolesh Network and is an example of its integration into third-party apps.
 
-[<img src="https://adnolesh.com/images/AdNoleshLogotypeEmail.png" style="float: left; padding-right: 10px;">](https://https://adnolesh.com)
+[<img src="https://adnolesh.com/images/AdNoleshLogotypeEmail.png" style="float: left; padding-right: 10px;">](https://adnolesh.com)
 
 ## Main benefits
 * Free cross-promotion system
@@ -17,8 +17,8 @@ This app demonstrates features of AdNolesh Network and is an example of its inte
 
 
 ## Screenshots
-[<img src="https://github.com/AdNolesh/AdNolesh-SDK-Integration-Example-Eclipse/blob/master/Screenshots/AdNolesh_Main_Screen.jpg" width=250>](https://github.com/AdNolesh/AdNolesh-SDK-Integration-Example-Eclipse/blob/master/Screenshots/AdNolesh_Main_Screen.jpg)
-[<img src="https://github.com/AdNolesh/AdNolesh-SDK-Integration-Example-Eclipse/blob/master/Screenshots/AdNolesh_Offerwall.jpg" width=250>](https://github.com/AdNolesh/AdNolesh-SDK-Integration-Example-Eclipse/blob/master/Screenshots/AdNolesh_Offerwall.jpg)
-[<img src="https://github.com/AdNolesh/AdNolesh-SDK-Integration-Example-Eclipse/blob/master/Screenshots/AdNolesh_Hidden_Offerwall.jpg" width=250>](https://github.com/AdNolesh/AdNolesh-SDK-Integration-Example-Eclipse/blob/master/Screenshots/AdNolesh_Hidden_Offerwall.jpg)
-[<img src="https://github.com/AdNolesh/AdNolesh-SDK-Integration-Example-Eclipse/blob/master/Screenshots/AdNolesh_Banner.jpg" width=250>](https://github.com/AdNolesh/AdNolesh-SDK-Integration-Example-Eclipse/blob/master/Screenshots/AdNolesh_Banner.jpg)
-[<img src="https://github.com/AdNolesh/AdNolesh-SDK-Integration-Example-Eclipse/blob/master/Screenshots/AdNolesh_Banner_In_Preferences.jpg" width=250>](https://github.com/AdNolesh/AdNolesh-SDK-Integration-Example-Eclipse/blob/master/Screenshots/AdNolesh_Banner_In_Preferences.jpg)
+[<img src="https://github.com/AdNolesh/AdNolesh-SDK-Integration-Example-Eclipse/blob/master/Screenshots/AdNolesh_Main_Screen.jpg" width=170>](https://github.com/AdNolesh/AdNolesh-SDK-Integration-Example-Eclipse/blob/master/Screenshots/AdNolesh_Main_Screen.jpg)
+[<img src="https://github.com/AdNolesh/AdNolesh-SDK-Integration-Example-Eclipse/blob/master/Screenshots/AdNolesh_Offerwall.jpg" width=170>](https://github.com/AdNolesh/AdNolesh-SDK-Integration-Example-Eclipse/blob/master/Screenshots/AdNolesh_Offerwall.jpg)
+[<img src="https://github.com/AdNolesh/AdNolesh-SDK-Integration-Example-Eclipse/blob/master/Screenshots/AdNolesh_Hidden_Offerwall.jpg" width=170>](https://github.com/AdNolesh/AdNolesh-SDK-Integration-Example-Eclipse/blob/master/Screenshots/AdNolesh_Hidden_Offerwall.jpg)
+[<img src="https://github.com/AdNolesh/AdNolesh-SDK-Integration-Example-Eclipse/blob/master/Screenshots/AdNolesh_Banner.jpg" width=170>](https://github.com/AdNolesh/AdNolesh-SDK-Integration-Example-Eclipse/blob/master/Screenshots/AdNolesh_Banner.jpg)
+[<img src="https://github.com/AdNolesh/AdNolesh-SDK-Integration-Example-Eclipse/blob/master/Screenshots/AdNolesh_Banner_In_Preferences.jpg" width=170>](https://github.com/AdNolesh/AdNolesh-SDK-Integration-Example-Eclipse/blob/master/Screenshots/AdNolesh_Banner_In_Preferences.jpg)
