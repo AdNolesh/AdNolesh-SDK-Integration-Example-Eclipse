@@ -15,6 +15,13 @@ This app demonstrates features of AdNolesh Network and is an example of its inte
 * The only required permissions are access to the network state and the Internet
 * Supports Android version 4.0.3 and up
 
+## Project setup
+* Create account on the website (https://adnolesh.com)
+* Create your campaign (app) on the website (use real package name of your app)
+* Clone or download this repository
+* Start it using Eclipse with Android SDK installed
+* Replace the application package (com.your.app.p4ck4ge.name) with your own (use the same package name as on the website)
+* Replace the "YOUR_API_KEY" parameter of the "initialize" method with your API token, which you can get from the website
 
 ## Screenshots
 [<img src="https://github.com/AdNolesh/AdNolesh-SDK-Integration-Example-Eclipse/blob/master/Screenshots/AdNolesh_Main_Screen.jpg" width=250>](https://github.com/AdNolesh/AdNolesh-SDK-Integration-Example-Eclipse/blob/master/Screenshots/AdNolesh_Main_Screen.jpg)

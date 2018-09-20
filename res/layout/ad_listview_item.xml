@@ -3,13 +3,16 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+	android:background="#acf"
     >
     
     <ImageView 
         android:id="@+id/adIcon"
 	    android:layout_width="50dp"
 	    android:layout_height="50dp"
+		android:layout_margin="5dp"
 	    android:layout_alignParentRight="true"
+		android:layout_centerVertical="true"
     />
     
 <LinearLayout 
@@ -23,14 +26,17 @@
         android:layout_height="wrap_content"
         android:id="@+id/adTitle"
         android:textColor="#333333"
+		android:background="#fa0"
+		android:textAlignment="center"
         android:textSize="21sp"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="3sp"
         android:id="@+id/adDesc"
-        android:textColor="#ffffff"
-        android:textSize="15sp"/>
+        android:textColor="#f80"
+        android:textSize="12sp"/>
   
 </LinearLayout>
 </RelativeLayout>
