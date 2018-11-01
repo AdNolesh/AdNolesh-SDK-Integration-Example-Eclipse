@@ -17,7 +17,7 @@
     />
 	
 	<!-- AdNolesh BannerPreference (Banner) -->
-	<com.nolesh.ads.BannerPreference /> 
+	<com.nolesh.ads.AdNoleshBannerPreference /> 
 	
 	<com.your.app.p4ck4ge.name.InfoPreference 
          android:title="@string/info_preferences1_title"                  

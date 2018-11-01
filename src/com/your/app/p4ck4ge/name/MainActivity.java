@@ -1,8 +1,9 @@
 package com.your.app.p4ck4ge.name;
 
 import com.nolesh.ads.AdNoleshBanner;
+import com.nolesh.ads.AdNoleshBannerPreference;
 import com.nolesh.ads.AdNoleshSDK;
-import com.nolesh.ads.BannerPreference;
+
 import com.nolesh.ads.InitSDKEvents;
 import com.nolesh.ads.NotificationScheduler;
 import com.nolesh.ads.OfferwallAdapter;
@@ -34,7 +35,8 @@ public class MainActivity extends FragmentActivity {
 		setContentView(R.layout.activity_main);
 
 		//Initialize SDK 
-		AdNoleshSDK.initialize(this, "YOUR_API_KEY", true, new InitSDKEvents() {		
+//		AdNoleshSDK.initialize(this, "YOUR_API_KEY", false);
+		AdNoleshSDK.initialize(this, "YOUR_API_KEY", false, new InitSDKEvents() {		
 			@Override
 			public void onSuccess() {
 				MainActivity.this.runOnUiThread(new Runnable() {
@@ -54,23 +56,36 @@ public class MainActivity extends FragmentActivity {
 		});
 		
 		AdNoleshBanner.setPersistentMode(true);
-		BannerPreference.setPersistentMode(true);
+//		AdNoleshBannerPreference.setPersistentMode(true);
 //		AdNoleshSDK.setPersistentVideoRequestMode(true);
 		AdNoleshSDK.enableInterstitials(true);
 				
+		//Customize offerwall
 		OfferwallAdapter.setTitleColor("#ff9900");
 		OfferwallAdapter.setDescriptionColor("#77ccff");
-		OfferwallAdapter.setBackgroundColor("#007a95");
+		OfferwallAdapter.setBackgroundColor("#ffffff");
 		
 		//Customizes ad units in the offerwall and wrapped ListAdapter.
 //		OfferwallAdapter.customizeAdUnits(R.layout.ad_listview_item, R.id.adIcon, R.id.adTitle, R.id.adDesc);
 		
+		
+		OfferwallAdapter.setHeaderCloseButtonColor("#ff0000");
+		OfferwallAdapter.setHeaderTitleColor("#333333");
+		OfferwallAdapter.setHeaderBackgroundColors("#35b9ea", "#3290a8");
+		
+		//Set the handle and arrow color of the hidden offerwall
+		OfferwallAdapter.setHandleColor("#33b5e5", "#ffffff");
+		
+		
+		
+		//Customize notification
 		NotificationScheduler.setTitle(this, "My Awesome App");
 		NotificationScheduler.setContentText(this, "Pull it down to see the content");
 		
 		//Embed hidden offerwall
-		//AdNoleshSDK.embedHiddenOfferwall(this, "#55c5f5", "popular apps"); 
-		AdNoleshSDK.embedHiddenOfferwall(this, false, "#55c5f5", "popular apps");
+//		AdNoleshSDK.embedHiddenOfferwall(this);
+//		AdNoleshSDK.embedHiddenOfferwall(this, true);
+		AdNoleshSDK.embedHiddenOfferwall(this, false, "popular apps");
 		
 				
 		TabAdapter = new TabPagerAdapter(getSupportFragmentManager());
@@ -92,8 +107,7 @@ public class MainActivity extends FragmentActivity {
 		ActionBar.TabListener tabListener = new ActionBar.TabListener() {
 
 			@Override
-			public void onTabReselected(android.app.ActionBar.Tab tab, FragmentTransaction ft) {
-				// TODO Auto-generated method stub
+			public void onTabReselected(android.app.ActionBar.Tab tab, FragmentTransaction ft) {				
 			}
 
 			@Override
@@ -106,8 +120,7 @@ public class MainActivity extends FragmentActivity {
 			}
 
 			@Override
-			public void onTabUnselected(android.app.ActionBar.Tab tab, FragmentTransaction ft) {
-				// TODO Auto-generated method stub
+			public void onTabUnselected(android.app.ActionBar.Tab tab, FragmentTransaction ft) {				
 			}
 		}; 
 		// Add New Tab
@@ -130,7 +143,6 @@ public class MainActivity extends FragmentActivity {
 	        switch (i) {
 	        case 0:	           
 	            return new BannerTab();
-//	        	return new OfferwallTab();
 	        case 1:	           
 	            return new MainTab();
 	        case 2:	           
@@ -148,16 +160,13 @@ public class MainActivity extends FragmentActivity {
 	
 	@Override
 	public void onResume() {
-		//We have to keep track to instance of the current activity.
-		//You can omit it if you are going to use SDK in single activity.
-		//In this example we have to call "onResume" function to set current activity, 
-		//because we use the SDK in several activities (WallpaperSettings & MainActivity).		
+		//We have to keep track to instance of the current activity.			
 		AdNoleshSDK.onResume(this);
 		super.onResume();
 	}
 	
 	@Override
-	public void finish() {			
+	public void finish() {	
 		super.finish();		
 		//Interrupts video download, stops the SDK initialization and unregisters broadcast receivers.
 		//This method must be called in the "finish" method in your main activity.

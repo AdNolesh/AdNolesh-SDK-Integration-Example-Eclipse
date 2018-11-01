@@ -3,7 +3,7 @@
                 android:layout_height="match_parent"
                 android:layout_width="match_parent">
 	
-    <com.nolesh.ads.Banner android:id="@+id/adview"
+    <com.nolesh.ads.AdNoleshBanner android:id="@+id/adview"
          android:layout_width="match_parent"
     android:layout_height="wrap_content" />
         

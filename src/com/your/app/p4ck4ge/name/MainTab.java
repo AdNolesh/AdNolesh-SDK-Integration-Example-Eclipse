@@ -19,12 +19,7 @@ import android.widget.Toast;
 
 
 public class MainTab extends Fragment {
-		
-	@Override
-	public void onDetach() {		
-		super.onDetach();		
-	}
-			
+						
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		final View view = inflater.inflate(R.layout.fragment_main, container, false);
@@ -35,13 +30,16 @@ public class MainTab extends Fragment {
 			@Override
 			public void onClick(View v) {				
 				Calendar calendar = Calendar.getInstance();
-				calendar.setTimeInMillis(System.currentTimeMillis());
-				long interval = 30 * 1000;
+				calendar.setTimeInMillis(System.currentTimeMillis());				
+				calendar.add(Calendar.MINUTE, 1); //current minute + 1
+				
+				int hour = calendar.get(Calendar.HOUR_OF_DAY); //current hour
+				int min = calendar.get(Calendar.MINUTE);
+				int delay = 0; // no delay (today)
+				
 				AdNoleshSDK.setNotification( 
-						//calendar.get(Calendar.HOUR_OF_DAY), //current hour 
-						//calendar.get(Calendar.MINUTE)+1, //current minute + 1
-						12, 25,
-						NotificationScheduler.INTERVAL_1_DAY, false,
+						hour, min, delay,					
+						NotificationScheduler.INTERVAL_ONCE, false,
 						R.drawable.ic_statusbar);
 				
 			}
@@ -52,7 +50,6 @@ public class MainTab extends Fragment {
 			@Override
 			public void onClick(View v) {
 				AdNoleshSDK.showOfferwall();
-//				AdNoleshSDK.cancelNotification();
 			}
 		});
 		
