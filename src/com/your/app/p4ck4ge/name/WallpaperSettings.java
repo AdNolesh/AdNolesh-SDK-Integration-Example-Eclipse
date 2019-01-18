@@ -20,15 +20,4 @@ public class WallpaperSettings extends PreferenceActivity {
 		//AdNoleshSDK.initialize(this, false, false);				
 	}
 	
-	@Override
-	public void onResume() {		
-		//We have to keep track to instance of the current activity.			
-		AdNoleshSDK.onResume(this);	
-		super.onResume();
-	}
-	
-	@Override
-	protected void onPause() {		
-		super.onPause();			
-	}
 }

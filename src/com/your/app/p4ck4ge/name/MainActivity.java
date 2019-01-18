@@ -35,8 +35,8 @@ public class MainActivity extends FragmentActivity {
 		setContentView(R.layout.activity_main);
 
 		//Initialize SDK 
-//		AdNoleshSDK.initialize(this, "YOUR_API_KEY", false);
-		AdNoleshSDK.initialize(this, "YOUR_API_KEY", false, new InitSDKEvents() {		
+//		AdNoleshSDK.initialize(this, "YOUR_API_KEY", true);
+		AdNoleshSDK.initialize(this, "YOUR_API_KEY", true, new InitSDKEvents() {		
 			@Override
 			public void onSuccess() {
 				MainActivity.this.runOnUiThread(new Runnable() {
@@ -157,20 +157,5 @@ public class MainActivity extends FragmentActivity {
 	        return 3; //Number of Tabs
 	    }	 
 	}
-	
-	@Override
-	public void onResume() {
-		//We have to keep track to instance of the current activity.			
-		AdNoleshSDK.onResume(this);
-		super.onResume();
-	}
-	
-	@Override
-	public void finish() {	
-		super.finish();		
-		//Interrupts video download, stops the SDK initialization and unregisters broadcast receivers.
-		//This method must be called in the "finish" method in your main activity.
-		AdNoleshSDK.finish();
-	}
-	
+		
 }

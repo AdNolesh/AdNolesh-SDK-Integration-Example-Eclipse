@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
+import com.your.app.p4ck4ge.name.R;
 
 
 public class InfoPreference extends Preference{

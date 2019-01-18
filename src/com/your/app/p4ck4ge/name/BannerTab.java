@@ -20,10 +20,11 @@ public class BannerTab extends Fragment {
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		final View view = inflater.inflate(R.layout.fragment_banner, container, false);			
 		
-		Button button = (Button) view.findViewById(R.id.addBannerButton);		
+		final Button button = (Button) view.findViewById(R.id.addBannerButton);		
 		button.setOnClickListener(new OnClickListener() {				
 			@Override
-			public void onClick(View v) {				
+			public void onClick(View v) {
+				button.setVisibility(View.GONE);
 				RelativeLayout rl = (RelativeLayout)view.findViewById(R.id.bannerContainer);
 				addBanner(rl);
 			}

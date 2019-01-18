@@ -48,6 +48,7 @@
         <receiver android:name="com.nolesh.ads.Notification">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="com.nolesh.ads.ORDER_TO_KILL_SERVICE" />
             </intent-filter>
         </receiver>
       

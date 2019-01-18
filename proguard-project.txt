@@ -53,7 +53,7 @@
 
 
 # AdNolesh SDK 
--keep public class com.nolesh.ads.** { *; }
+-keep class com.nolesh.ads.** { *; }
 -dontwarn com.nolesh.ads.**
 
 
